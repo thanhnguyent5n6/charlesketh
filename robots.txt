@@ -1,0 +1,11 @@
+# robots.txt
+# Created by: trungnguyen(trunghtglobal@gmail.com)
+# Only for: https://dienmaygiasi.vn
+
+User-agent: *
+Disallow: /resources/views/admin
+
+User-agent: Googlebot-Image
+Allow: /public
+
+Sitemap: https://dienmaygiasi.vn/sitemap.xml

@@ -1,0 +1,16 @@
+body{
+    font-family: "Arial";
+    font-size: 11px;
+}
+.table{
+    font-family: "Arial";
+    font-size: 9px;
+}
+table.print-productlist thead tr,table.print-productlist tr td{
+	font-size: 11px !important;
+	border: 1px solid black !important;
+	border-collapse: collapse;
+}
+table.print-productlist thead{
+	font-size: 10px;
+}

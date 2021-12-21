@@ -1,0 +1,570 @@
+@media only screen and (min-width: 1281px) {
+    .container {
+        max-width: 1230px
+    }
+
+    #fast-search {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .header-search {
+        margin-top: 1rem
+    }
+
+    .slider-section {
+        margin-top: 1rem
+    }
+
+    .navbar-section .main-menu {
+        width: auto
+    }
+
+    .navbar-section .main-menu > .navbar-label {
+        display: none
+    }
+
+    .navbar-section .main-menu ul {
+        display: none !important
+    }
+
+    #mmenu {
+        display: block
+    }
+
+    .sidebar {
+        display: flex;
+        flex-wrap: wrap
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1169px) {
+    .header-section {
+    }
+
+    .header-search .search-toggle {
+        padding: 0
+    }
+
+    .header-cart {
+        margin-left: 10px
+    }
+
+    .header-cart .cart-toggle {
+        padding: 0 10px 0 0
+    }
+
+    .ads-newyear:before {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-map #location-input {
+        width: 400px
+    }
+
+    #modal-popup .modal-dialog {
+        min-width: 700px
+    }
+
+    #modal-popup .modal-content {
+        height: 440px
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 100%
+    }
+
+    .header-section {
+    }
+
+    .header-option-btns {
+    }
+
+    .footer-widget.link-widget {
+        padding-left: 15px
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-section {
+        height: auto
+    }
+
+    .tour-list .tour-image {
+        max-width: 220px
+    }
+
+    .product-details .price .new {
+        font-size: 30px
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        max-width: 100%
+    }
+
+    .header-section {
+        background-color: #fff;
+        position: static
+    }
+
+    .header-section.stick {
+        box-shadow: none;
+        position: static
+    }
+
+    .footer-widget.link-widget {
+        padding-left: 15px
+    }
+
+    .footer-bottom-section .copyright, .footer-bottom-section .payment-method {
+        text-align: center
+    }
+
+    .footer-bottom-section .copyright {
+        margin-bottom: 15px
+    }
+
+    .shop-tablist {
+        width: auto
+    }
+
+    .shop-bar p {
+        display: block;
+        float: left;
+        text-align: left;
+        width: 100%
+    }
+
+    .list-product-img {
+        margin-right: 0;
+        width: 100%
+    }
+
+    .list-product-info {
+        width: 100%
+    }
+
+    .list-product-info .title {
+        font-size: 24px
+    }
+
+    .comment-list li ul {
+        margin-left: 0
+    }
+
+    .sidebar-widget .title {
+        position: relative;
+        cursor: pointer;
+        font-size: .9rem;
+        padding-right: 15px
+    }
+
+    .sidebar-widget .title:after {
+        content: '\e688';
+        position: absolute;
+        right: 3px;
+        top: 6px;
+        font-family: 'Pe-icon-7-stroke';
+        speak: none;
+        font-style: normal;
+        font-weight: bold;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        font-size: 1.3rem;
+        cursor: pointer;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        z-index: 10
+    }
+
+    .sidebar-widget .category {
+        display: none
+    }
+
+    .sidebar-widget .category.active {
+        display: block
+    }
+
+    .sidebar-widget .content {
+        display: none
+    }
+
+    .sidebar-widget .content.active {
+        display: block;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 9999
+    }
+
+    .sidebar-widget .content.active .row {
+        position: absolute;
+        width: 90%;
+        top: 50%;
+        left: 50%;
+        padding: 15px 0px;
+        margin: 0px;
+        background-color: #fff;
+        border-radius: 3px;
+        box-shadow: 0px 0px 5px #333;
+        transform: translate(-50%, -50%)
+    }
+
+    #modal-popup .modal-content {
+        height: 317px
+    }
+
+    .hotline {
+        display: none
+    }
+
+    .sm-order-first {
+        order: -1
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .menu-mobile {
+        display: block
+    }
+
+    .list-menu-mobilie {
+        text-align: center;
+        background: linear-gradient(#fff, #f7f7f7);
+        border: 1px solid #0e93fd;
+        border-radius: 3px;
+        padding: 7px 0px;
+        font-size: 11px
+    }
+
+    .list-menu-mobilie a {
+        color: #0e93fd
+    }
+
+    .ads-newyear {
+        display: none
+    }
+
+    .footer-center {
+        background-size: 50% auto
+    }
+
+    #modal-request .image img {
+        display: block;
+        max-height: 150px;
+        margin: 0px auto
+    }
+
+    .search-cate {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 999999;
+        overflow: hidden;
+        background: #000000e0;
+        display: none;
+        padding-top: 36px
+    }
+
+    .search-all {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #01006b;
+        text-align: center;
+        z-index: 999;
+        color: white;
+        height: 50px;
+        line-height: 50px
+    }
+
+    #show-search {
+        width: 100%;
+        display: none
+    }
+
+    #fast-search {
+        display: block;
+        width: 100%;
+        border-width: 0px 0px 2px 0px;
+        border-style: solid;
+        border-color: #b7b702;
+        padding: 10px 0px;
+        background: yellow;
+        text-transform: uppercase;
+        border-radius: 30px;
+        font-weight: 600
+    }
+
+    #mobile-menu {
+        display: block
+    }
+}
+
+@media (max-width: 575.98px) {
+    .maps-header {
+        display: none
+    }
+
+    .product-details .info ul li {
+    }
+
+    a#add-to-cart .btn {
+        margin-bottom: 10px
+    }
+
+    .header-cart {
+        position: fixed;
+        top: 6px;
+        right: 1rem;
+        width: 50px;
+        height: 50px;
+        padding: 12px 8px;
+        border-radius: 4px;
+        background-color: #faaa29;
+        z-index: 9999
+    }
+
+    .slick-product-thumb .slick-slide div a {
+        position: relative;
+        display: block;
+        margin: 0px 4px;
+        border: 1px solid #eaeaea
+    }
+
+    .product-item .title {
+        margin-bottom: .4rem;
+        font-weight: 600;
+        font-size: 0.8rem
+    }
+
+    .product-item .price .old {
+        color: #cecece;
+        text-decoration: line-through;
+        display: inherit;
+        font-size: 0.7rem
+    }
+
+    .product-item .action {
+        display: none
+    }
+
+    .new-behind {
+        display: block
+    }
+
+    .tin-tuc {
+        order: 3
+    }
+
+    .m-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 100%
+    }
+
+    .post-item div {
+        flex-basis: 100%
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .header-info {
+        display: none
+    }
+
+    .section-title {
+    }
+
+    .section-title h4 {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 18px
+    }
+
+    .tour-list .tour-price {
+        position: relative;
+        width: 100%;
+        margin-bottom: .5rem;
+        text-align: left
+    }
+
+    .tour-list .tour-order {
+        position: absolute;
+        right: 0px;
+        top: 0px
+    }
+
+    .tour-list .tour-info {
+        clear: both
+    }
+
+    .offer-modal .offer-info {
+        padding: 2rem !important
+    }
+
+    .list-product-info .title {
+        font-size: 1rem
+    }
+
+    .list-action-btn .add-to-cart {
+        float: none
+    }
+
+    .list-action-btn a {
+        margin: 10px 10px 0 0
+    }
+
+    .product-details .title {
+        font-size: 20px
+    }
+
+    .cart-coupon input[type="text"], .cart-coupon input[type="submit"] {
+        text-align: center;
+        width: 100%
+    }
+
+    .checkout-login-wrapper form .remember-me-box {
+        float: left;
+        width: 100%
+    }
+
+    .single-blog-post .blog-info .title {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .single-comment .image {
+        float: none;
+        margin-bottom: 15px
+    }
+
+    .login-reg-form {
+        padding: 20px
+    }
+
+    .login-reg-form form label.inline {
+        float: left
+    }
+
+    .product-item .info p > span {
+        display: inherit
+    }
+
+    .best-price {
+        width: 100%
+    }
+
+    .best-price img {
+        width: 16px;
+        margin-top: -3px;
+        margin-right: -1px
+    }
+
+    .best-price span {
+        font-size: 0.8rem;
+        color: #bd0000;
+        font-weight: 600
+    }
+
+    .product-details li.ad-to-card {
+        text-align: center
+    }
+
+    li.ad-to-card-li {
+        text-align: center
+    }
+
+    li a.ad-to-card {
+        margin-top: 10px;
+        margin-bottom: 7px
+    }
+
+    .alo-phone.alo-show {
+        visibility: visible;
+        display: block
+    }
+
+    .pagination {
+        flex-wrap: wrap
+    }
+
+    .product-details .price .old {
+        display: none;
+        text-align: right;
+        margin-right: 53px
+    }
+
+    .product-details .price .new {
+        font-size: 2.5rem
+    }
+
+    .request-call {
+        position: fixed !important;
+        bottom: 5px;
+        left: 50%;
+        z-index: 999;
+        width: 90%;
+        transform: translate(-50%)
+    }
+
+    p.inven-pro {
+        margin-left: 0;
+        padding-left: 0;
+        border: none
+    }
+
+    .banner-grid-wrapper-content {
+        padding: 10px 0px;
+    }
+
+    .banner-grid-wrapper .line {
+        height: 0px !important;
+    }
+
+    .banner-grid-wrapper-content .cate-title {
+        top: 65% !important;
+    }
+
+    .sub-menu-cha {
+        display: inline-block;
+    }
+
+    .sub-menu-con {
+        padding-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 379px) {
+    .tour-list .tour-price span {
+        display: inline-block
+    }
+
+    .tour-list .tour-order {
+        position: relative;
+        right: auto;
+        top: auto;
+        display: block
+    }
+}

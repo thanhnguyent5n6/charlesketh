@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "robotomedium";
+    src: url( http://localhost/ducnguyen/css/font/Robotomedium/Robotomedium.eot ); /* IE */
+    src: local("robotomedium"), url("http://localhost/ducnguyen/css/font/Robotomedium/Robotomedium.ttf") format("truetype"); /*non-IE*/
+}

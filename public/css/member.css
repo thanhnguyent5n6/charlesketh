@@ -1,0 +1,20 @@
+.panel-profile{
+	border-radius: 0px;
+}
+.panel-profile .panel-heading{
+	border-radius: 0px;
+	background-color: #1f2a37;
+	color: #fff;
+	text-transform: uppercase;
+}
+.panel-profile .panel-title{
+	color: #fff;
+	text-transform: uppercase;
+}
+.panel-profile .panel-body .control-label{
+	text-align: right;
+}
+.panel-profile .panel-body .btn-site{
+	text-transform: uppercase;
+	padding: 10px 20px;
+}

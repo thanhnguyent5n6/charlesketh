@@ -1,0 +1,9 @@
+.row-title{
+	background-color: #ccc;}
+.col-title{
+	font-weight: bold;
+	text-align: center;}
+.col{
+	vertical-align: top;
+	wrap-text: true;
+}

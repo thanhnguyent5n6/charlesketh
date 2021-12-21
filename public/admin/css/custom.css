@@ -1,0 +1,69 @@
+/* here you can put your own css to customize and override the theme */
+body{font-size: 13px;}
+.form-control{ height: 50px; }
+.form-control,
+.input-group-addon,
+.btn,
+.dropdown-menu{ font-size: 13px;}
+.dropdown-menu > li > form > a {
+    padding: 8px 16px;
+    color: #6e6e6e;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    line-height: 18px;
+    white-space: nowrap;
+}
+.dropdown-menu > li:hover > form > a,
+.dropdown-menu > li.active > form > a,
+.dropdown-menu > li.active:hover > form > a {
+	text-decoration: none;
+	background-image: none;
+	background-color: #f6f6f6;
+	color: #555;
+	filter: none;
+}
+
+.page-sidebar .page-sidebar-menu{ padding-top: 43px; }
+
+.portlet > .portlet-title > .caption{text-transform: uppercase; font-size: 15px; line-height: 20px;}
+.portlet > .portlet-title > .nav-tabs > li > a{margin-top: 6px;}
+.nav-tabs > li > a, .nav-pills > li > a{ font-size: 13px; }
+.table-responsive .table thead tr th{padding: 8px; text-align: center; vertical-align: middle; font-size: 13px;}
+.table-responsive .table tbody tr td{vertical-align: middle; font-size: 13px;}
+.table-responsive .table tbody tr td form{display: inline-block;}
+.table-responsive .table tbody tr td .input-mini{font-size: 13px; padding: 2px 6px; text-align: center; height: 28px;}
+.table-responsive .table tbody tr td .btn{font-size: 13px; padding: 2px 6px; margin: 2px;}
+.pagination{margin: -5px 0px;}
+.alert ul{list-style:none; margin: 0px;padding: 0px;}
+.label.label-sm{padding: 3px 5px;}
+.form-horizontal .control-label{ margin-bottom: 5px; }
+.form-horizontal .input-mini{font-size: 13px; padding: 2px 6px; text-align: center; height: 28px; margin-top: 4px;}
+.form-horizontal .mt-radio, .form-horizontal .mt-checkbox{margin-bottom: 6px;}
+.form-general .control-label{text-align: left;}
+
+.sweet-alert h2{font-size: 16px; font-weight: 400;}
+.sweet-alert .btn{padding: 6px 12px;}
+
+.fileuploader-input-caption{display: none;}
+.fileuploader-item .column-thumbnail{position: relative;}
+#yoast-seo{display: none;}
+.select2-container--bootstrap .select2-selection--multiple { min-height: 32px; }
+.select2-container--bootstrap .select2-selection{ font-size: 13px; }
+.select2-container--bootstrap .select2-selection--multiple .select2-selection__choice{ background-color: #f2f2f2; }
+.select2-container--bootstrap .select2-selection--multiple .select2-search--inline .select2-search__field{ height: 50px; }
+
+.btn-comment-expand.active{ border-color: #32c5d2;color: #FFFFFF;background-color: #32c5d2; }
+.btn-comment-expand.active .fa{ transform: rotate(-180deg); }
+
+.timeline .timeline-item .timeline-icon .icon-user-following::before{ content:'\e003'; color: #44b6ae !important; }
+.timeline .timeline-item .timeline-icon .icon-user-unfollow::before{ content:'\e003'; color: #44b6ae !important; }
+.timeline .timeline-item.disabled .timeline-icon .icon-user-following::before{ content:'\e004'; color: #f36a5a !important; }
+.timeline .timeline-item.disabled .timeline-icon .icon-user-unfollow::before{ content:'\e004'; color: #f36a5a !important; }
+
+.form_oder .portlet-body .form-group label{font-size: 1.6rem;} .form_oder .portlet-body .form-group input{padding: 10px;height: 45px;border-radius: 5px !important;border-color: #ffab42;font-weight: 600;}
+table tbody tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.control-label{font-size: 15px;font-weight: bold;}
+.province .btn:not(.btn-sm):not(.btn-lg){height: 50px;}
